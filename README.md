@@ -1,3 +1,3 @@
 # wybiral.github.io
 
-[davy.wtf](http://davy.wyf)
+[davy.wtf](http://davy.wtf)
