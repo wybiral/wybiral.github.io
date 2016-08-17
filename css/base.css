@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font: 100%/120% 'Open Sans';
+    background-color: #fff;
+}
+
+a,
+a:active,
+a:visited,
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    display: inline-block;
+    width: 350px;
+}
+
+header h1 {
+    color: #f70;
+    font-size: 5em;
+    line-height: 1.2em;
+    font-family: 'Satisfy';
+}
+
+header h1 img {
+    margin-right: 20px;
+}
+
+header h2 {
+    color: #79f;
+    margin-top: 30px;
+    line-height: 1.2em;
+}
+
+main {
+    color: #666;
+    width: 666px;
+    min-height: 280px;
+    padding-left: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+    border-left: solid 4px #000;
+    font-size: 1.3125em;
+    line-height: 1.52381em;
+}
+
+main h1 {
+    color: #000;
+    margin: 1em 0;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    margin: 1em 0 2em 0;
+    text-indent: 1em;
+}
+
+main li h2 {
+    font-size: 1em;
+}
+
+main li div {
+    margin: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        text-align: center;
+    }
+    header {
+        margin: 40px auto;
+        width: 70%;
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    main {
+        margin: 40px auto;
+        width: 70%;
+        float: none;
+        border-left: none;
+        border-top: solid 4px #000;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        margin: 10px auto;
+        width: 90%;
+        font-size: 0.75em;
+    }
+    main {
+        margin: 20px auto;
+        width: 90%;
+    }
+}
