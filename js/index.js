@@ -1,6 +1,6 @@
 window.onload = () => {
     let api = 'https://api.github.com';
-    let url = api + '/users/wybiral/repos?sort=pushed';
+    let url = api + '/users/wybiral/repos?sort=created';
     fetch(url).then(response => {
         return response.json();
     }).then(results => {
