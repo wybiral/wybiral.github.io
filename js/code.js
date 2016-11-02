@@ -39,7 +39,7 @@ const getDate = project => {
 };
 
 window.onload = () => {
-    let repos = document.querySelector('#repos');
+    let repos = document.querySelector('#projects');
     getProjects('wybiral').then(projects => {
         projects.forEach(project => {
             const url = htmlEscape(project.html_url);
