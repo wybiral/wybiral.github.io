@@ -111,6 +111,15 @@ main li div {
         display: block;
         text-align: left;
     }
+    main#home {
+        text-align: center;
+    }
+    main#home > h1 {
+        display: inline-block;
+    }
+    main#home > h1 + h1 {
+        margin-left: 1em;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -122,6 +131,12 @@ main li div {
     main {
         margin: 20px auto;
         width: 90%;
+    }
+    main#home > h1 {
+        display: block;
+    }
+    main#home > h1 + h1 {
+        margin-left: 0;
     }
 }
 
