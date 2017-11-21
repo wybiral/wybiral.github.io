@@ -17,6 +17,10 @@ body {
     background-color: #fff;
 }
 
+body.about li {
+    margin-left: 1em;
+}
+
 a,
 a:active,
 a:visited,
