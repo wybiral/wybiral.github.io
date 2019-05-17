@@ -8,7 +8,7 @@ def parse_date(proj):
         return created
     return created + '-' + pushed
 
-url = 'https://api.github.com/users/wybiral/repos?sort=created'
+url = 'https://api.github.com/users/wybiral/repos?sort=created&per_page=100'
 item = '<li><h2><a href="{url}">{name} ({date})</a></h2><div>{desc}</div></li>'
 template = open('index.template.html', 'r').read()
 output = open('index.html', 'w')
