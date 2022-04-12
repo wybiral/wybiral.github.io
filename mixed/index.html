@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Mixed content</title>
+        <script>
+window.onload = () => {
+    document.querySelector('#btn').onclick = evt => {
+        const img = new Image();
+        img.src = 'http://httpbin.org/image/png';
+    };
+};
+        </script>
+    </head>
+    <body>
+        <button id="btn">Click me!</button>
+    </body>
+</html>
